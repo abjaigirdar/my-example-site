@@ -1,0 +1,129 @@
+
+
+
+
+
+
+
+
+body {
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+
+.photos img {
+    width: 100%;
+}
+
+.photos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+    grid-column-gap: 20px;
+}
+
+.header {
+    background-color: #1976d2;
+    color: #FFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    flex-wrap: wrap;
+}
+.nav a {
+    text-decoration: none;
+    color:#FFF;
+    display:block;
+    transition: all 0.3s ease-out;
+}
+.nav {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 10px;
+
+}
+.nav li {
+    margin-left: 20px;
+}
+.nav a:hover{
+    color:#bdbdbd;
+    transform: rotate(6deg);
+}
+.hero {
+    background-color: #bbdefb;
+    padding: 45px 60px;
+    display: flex;
+    justify-content: center;
+}
+.hero h1 {
+    font-size: 4rem;
+    font-weight: normal;
+    margin: 0;
+}
+.hero p {
+    line-height: 1.6;
+    font-size: 1.2rem;
+}
+.hero-inner {
+    max-width: 760px;
+}
+.button {
+    text-decoration: none;
+    color:#FFF;
+    background-color: #1976d2;
+    padding: 15px 22px;
+    font-size: 1.3rem;
+    display: inline-block;
+    border-radius: 8px;
+}
+.footer {
+    text-align: center;
+    color: #999;
+    padding: 10px 0;
+    font-size: .9rem;
+}
+.features {
+    background-color: #e3f2fd;
+    padding: 60px 45px;
+}
+.inner-features {
+    margin: 0 auto;
+    display: grid;
+    grid-column-gap: 15px;
+    grid-row-gap:15px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+    
+.featured-item h3 {
+    color: #1976d2;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0;
+}
+.featured-item {
+    display:grid;
+    grid-template-columns: minmax(auto, 300px);
+}
+
+.inner-features-port {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-column-gap: 15px;
+    grid-row-gap:45px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.featured-item-port h3 {
+    color: #1976d2;
+    font-size: 1.5rem;
+    font-weight: normal;
+    margin: 0;
+}
+.drone-photos{
+    width: 100%;
+}
+
